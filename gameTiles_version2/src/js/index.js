@@ -88,13 +88,17 @@ $(document).ready(function () {
     function startGame(dimension) {
         $("td").addClass("game");
     };
-
+    function  defResult() {
+      $(".score").html("0");
+      $(".click").html("0");
+    }
 
     function addPlayButtonListener() {
         $("#playButton").on("click", function () {
             setTimeout(startGame, 4000)
             clearGameArea();
             buildGameArea();
+            defResult();
         });
     };
 
