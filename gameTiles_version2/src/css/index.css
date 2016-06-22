@@ -1,0 +1,31 @@
+.input_area {
+    margin-top: 3%;
+    margin-right: 5%;
+    float: right;
+}
+.class {
+  width: 100px;
+  float: right;
+}
+
+p {
+  line-height: 30px;
+  border: 1px solid #FFF;
+}
+
+#area {
+  width: 600px;
+  height: 600px;
+}
+
+td, tr {
+    border:1px solid;
+}
+
+.game {
+  background-image: url("../img/logo.jpg");
+  background-size: cover;
+}
+.opened{
+  pointer-events: none;
+}
